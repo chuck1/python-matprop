@@ -27,6 +27,7 @@ al = Material(
 materials = Materials()
 
 materials.add_material(cu)
+materials.add_material(al)
 
 def PropsSI(prop_out, mat_name):
     global materials

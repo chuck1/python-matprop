@@ -1,8 +1,9 @@
-
+__version__ = '0.1a0'
 import nas.units
 import units
+import units.predefined
 
-nas.units.define_units()
+units.predefined.define_units()
 
 class Materials(object):
     def __init__(self):
@@ -19,11 +20,11 @@ class Material(object):
 
 cu = Material(
         ("copper","CU"),
-        th_cond=units.unit('si_thermal_conductivity')(401.))
+        th_cond=units.unit('W/m/K')(401.))
 
 al = Material(
         ("aluminum", "AL"),
-        th_cond=units.unit('si_thermal_conductivity')(177.))
+        th_cond=units.unit('W/m/K')(177.))
 
 materials = Materials()
 

@@ -1,0 +1,6 @@
+matprop/__init__.py
+matprop.egg-info/PKG-INFO
+matprop.egg-info/SOURCES.txt
+matprop.egg-info/dependency_links.txt
+matprop.egg-info/not-zip-safe
+matprop.egg-info/top_level.txt

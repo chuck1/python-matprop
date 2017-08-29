@@ -24,7 +24,7 @@ cu = Material(
 
 al = Material(
         ("aluminum", "AL"),
-        th_cond=units.unit('W/m/K')(177.))
+        th_cond=units.unit('W/m/K')(222.05))
 
 materials = Materials()
 

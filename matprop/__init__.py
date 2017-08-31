@@ -18,9 +18,12 @@ class Material(object):
         self.props = dict()
         self.props["THERMAL_CONDUCTIVITY"] = th_cond
 
+k_cu = units.unit("BTU/R/h/ft")(196)
+#k_cu = units.unit('W/m/K')(401.)
+
 cu = Material(
         ("copper","CU"),
-        th_cond=units.unit('W/m/K')(401.))
+        th_cond = k_cu)
 
 al = Material(
         ("aluminum", "AL"),

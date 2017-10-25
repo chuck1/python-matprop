@@ -1,3 +1,4 @@
+README.md
 matprop/__init__.py
 matprop.egg-info/PKG-INFO
 matprop.egg-info/SOURCES.txt
